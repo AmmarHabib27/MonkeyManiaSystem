@@ -91,7 +91,7 @@ export class ChildSubscriptionDetailDialogComponent {
           }
         </style>
       </head>
-      <body>
+      <body> 
         <div class="page">
           <div class="print-bar">
             <button onclick="window.print()">🖨️ طباعة</button>
