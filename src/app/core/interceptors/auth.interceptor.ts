@@ -11,7 +11,7 @@ import { catchError, filter, switchMap, take, finalize } from 'rxjs/operators';
 import { loginService } from 'src/app/auth/login.service';
 import { ToastrService } from 'ngx-toastr';
 import { Router } from '@angular/router';
-import { environment } from 'src/environments/environment';
+import { environment } from 'src/environments/environment'; 
 
 @Injectable()
 export class AuthInterceptor implements HttpInterceptor {
